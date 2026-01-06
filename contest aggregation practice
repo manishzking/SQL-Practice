@@ -1,0 +1,9 @@
+SELECT
+    ID,
+    Name,
+    CountryCode,
+    District,
+    Population
+FROM CITY
+WHERE CountryCode = 'USA'
+  AND Population > 100000;
